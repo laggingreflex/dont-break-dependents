@@ -1,0 +1,16 @@
+{
+  "name": "dont-break-dependents",
+  "version": "0.0.0",
+  "description": "Don't break dependent packages",
+  "main": "index.js",
+  "bin": {
+    "dont-break-dependents": "bin.js",
+    "dbd": "bin.js"
+  },
+  "repository": "laggingreflex/dont-break-dependents",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "get-repository-url": "^1.0.1",
+    "yargs": "^11.0.0"
+  }
+}
